@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RegionSign:jar">
+    <output-path>$USER_HOME$/MC/plugins</output-path>
+    <root id="archive" name="RegionSign.jar">
+      <element id="module-output" name="RegionSigns" />
+    </root>
+  </artifact>
+</component>

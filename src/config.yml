@@ -1,0 +1,32 @@
+host: host
+port: 3306
+database: database
+login: login
+password: password
+regionSignTable: RegionSigns
+signs:
+  sellingSign:
+    - "§2[{toSell}]"
+    - "§2{regionId}"
+    - "§2{price}{moneySymbol}"
+    - "§3{owner}"
+  priceErrorSign:
+    - "§4[{error}]"
+    - "§cPrice error"
+    - "§cIt must be"
+    - "§ca number"
+  idErrorSign:
+    - "§4[{error}]"
+    - "§cId error"
+    - "§cVerify that it"
+    - "§cexists"
+messages:
+  infos:
+    youBought: "You bought the plot {regionId} for {price}{moneySymbol} to {ownerD}."
+    youSold: "You sold the plot {regionId} for {price}{moneySymbol} to {playerD}."
+    reloaded: "§eRegionSigns reloaded !"
+    toSell: "À vendre"
+  errors:
+    error: "Erreur"
+    notANumber: "{var} has to be a number."
+    doesntExists: "There's no RegionSign corresponding to this loc."

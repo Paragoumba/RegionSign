@@ -1,0 +1,10 @@
+name: RegionSigns
+author: Paragoumba
+version: 0.6b3
+main: fr.paragoumba.regionsigns.RegionSigns
+depend: [Ecodiversity, WorldGuard]
+commands:
+  regionsign:
+    description: Regions' signs related command
+    usage: "/regionsign <remove> <world> <x> <y> <z>"
+    aliases: rs
